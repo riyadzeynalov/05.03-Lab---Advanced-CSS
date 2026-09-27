@@ -1,29 +1,68 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+  font-size: 13px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 16px;
+  color: #444444;
+}
+
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+.offer-title{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #00b3b3;
+}
+
+.offer-contents{
+  padding: 20px;
+  background-color: #fafafa;
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
-  margin-bottom: 20px;
+  border-spacing: 0;
+  background-color: #ffffff;
+  text-align: left;
 }
 
 th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+  margin: 0;
+  border-bottom: 1px solid #f1f1f1;
 }
 
-th {
-  background-color: #f2f2f2;
+th{
+  font-size: 12px;
   font-weight: bold;
+  color: #777777;
+  padding: 10px;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+td {
+  font-weight: lighter;
+  color: #444444;
+  padding: 20px 10px;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+.final-value {
+  font-weight: bold;
+  color: #2222ff;
 }
